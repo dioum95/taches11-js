@@ -1,0 +1,19 @@
+{
+  "name": "api-http",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --port 8081 --no-cors db.json",
+    "dev":"http-server",
+    "lint": "eslint*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1"
+  } 
+}
